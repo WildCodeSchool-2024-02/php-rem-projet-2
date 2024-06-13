@@ -1,3 +1,10 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    //traitement des données de l'utilisateur
+}
+?>
+<?php
+?>
 <!doctype html>
 <html lang="en">
 
@@ -29,28 +36,34 @@
             <nav>
                 <ul>
                     <li><a href="/"><img src="/assets/images/acceuil.png"></a></li>
-                    <li><a href="presentation">presentation<img src="/assets/images/apropo.png"></a></li>
-                    <li><a href="contact">contact<img src="/assets/images/contact.png"></a></li>
-                    <li><a href="videos-live">les-lives<img src="/assets/images/les-lives.png"></a></li>
+                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a></li>
+                    <li><a href="contact"><img src="/assets/images/contact.png"></a></li>
+                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a></li>
                 </ul>
             </nav>
         </aside>
         <main class="container">
-        <div class="neon-border"><h1 class="titrecontact">pour me contacter (stylvie) </h1></div>
+            <div class="neon-border">
+                <h1 class="titrecontact">pour me contacter (stylvie) </h1>
+            </div>
 
             <section>
 
                 <form>
-                    <label>Nom</label>
-                    <input type="text" name="text" placeholder="écrire ici votre nom:" aria-label="Text" />
-                    <label>Prénom</label>
-                    <input type="texe" name="text" placeholder="écrire ici votre prenom : " aria-label="Email" autocomplete="email" />
-                    <label>Email</label>
-                    <input type="tel" name="tel" placeholder="écrire ici votre mail :" aria-label="text:" autocomplete="tel" />
-                    <label>Message</label>
-                    <textarea name="bio" placeholder="écrire votre texte ici: " aria-label="Professional short bio"></textarea>
+                    <fieldset>
+                        <label>Nom*</label>
+                        <input type="text" name="text" placeholder="écrire ici votre nom:" aria-label="Text" />
+                        <label>Prénom*</label>
+                        <input type="texe" name="text" placeholder="écrire ici votre prenom : " aria-label="Email" autocomplete="email" />
+                        <label>Email*</label>
+                        <input type="tel" name="tel" placeholder="écrire ici votre mail :" aria-label="text:" autocomplete="tel" />
+                        <label>n°telephonne * </label>
+                        <input type="tel" name="tel" placeholder="écrire ici votre numéro  Tel" aria-label="Tel" autocomplete="tel" />
+                        <label>Message</label>
+                        <textarea name="bio" placeholder="écrire votre texte ici: " aria-label="Professional short bio"></textarea>
 
-
+                    </fieldset>
+                    <div class="submit"><input type="submit" value="envoyer" /></div>
                 </form>
 
             </section>

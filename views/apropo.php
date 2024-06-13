@@ -18,8 +18,14 @@
     <header>
         <img class="logo-sylvie" src="/assets/images/logo-cilvie.png" alt="logo" />
         <div class="header-title">
-        <div class="neon-border"> <h1> *ma petite boutique en ligne* </h1></div>
+        <div class="neon-border messagedefilant">
+            <h1> <span>*ma petite boutique en ligne*</span> </h1>
         </div>
+        <div class="like-button">
+        <span class="thumb-up">&#128077;</span> Like </div>
+        </div>
+        
+   
     </header>
     <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
     <div class="block-container">
@@ -28,9 +34,9 @@
                 <nav>
                     <ul>
                     <li><a href="/"><img src="/assets/images/acceuil.png"></a></li>
-                    <li><a href="presentation">presentation<img src="/assets/images/apropo.png"></a></li>
-                    <li><a href="contact">contact<img src="/assets/images/contact.png"></a></li>
-                    <li><a href="videos-live">les-lives<img src="/assets/images/les-lives.png"></a></li>
+                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a></li>
+                    <li><a href="contact"><img src="/assets/images/contact.png"></a></li>
+                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a></li>
                     </ul>
                 </nav>
         </aside>

@@ -23,6 +23,8 @@ $videoPath = 'path/to/your/video/votre_video.mp4';
         <div class="neon-border messagedefilant">
             <h1> <span>*ma petite boutique en ligne*</span> </h1>
         </div>
+        <div class="like-button">
+        <span class="thumb-up">&#128077;</span> Like </div>
         </div>
     </header>
     <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
@@ -31,9 +33,9 @@ $videoPath = 'path/to/your/video/votre_video.mp4';
             <nav>
                 <ul>
                     <li><a href="/"><img src="/assets/images/acceuil.png"></a></li>
-                    <li><a href="presentation">presentation<img src="/assets/images/apropo.png"></a></li>
-                    <li><a href="contact">contact<img src="/assets/images/contact.png"></a></li>
-                    <li><a href="videos-live">video-les-lives<img src="/assets/images/les-lives.png"></a></li>
+                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a></li>
+                    <li><a href="contact"><img src="/assets/images/contact.png"></a></li>
+                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a></li>
                 </ul>
             </nav>
         </aside>
@@ -44,7 +46,7 @@ $videoPath = 'path/to/your/video/votre_video.mp4';
   <div><img class="les-robes" src="/assets/les-robes/les-robes2.png" alt="les-robes" />les-robes<br> en tout genre</div>
   <div><img class="hauts" src="/assets/img-hauts/veste.png" alt="les hauts"/>les hauts<br> en tout genre</div>
   <div><img class="les-chaussures" src="/assets/les-chaussures\en-toile.png" alt="les-chaussures" />les-chaussures<br> en tout genre</div>
-  <div><img class="les-assessoires" src="/assets/assessoires\sac.png" alt="les-assessoires" />les-assessoires<br> en tout genre</div>
+  <div><img class="les-assessoires" src="/assets/assessoires\portefeuil.png" alt="les-assessoires" />les-assessoires<br> en tout genre</div>
 
 </div>
         </main>

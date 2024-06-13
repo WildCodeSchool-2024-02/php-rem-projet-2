@@ -15,9 +15,10 @@ header {
 .photonavbar {
     position: absolute;
     width: 50%;
-    top: 40px;
-    right: 350px;
+    top: 70px;
+    right: 270px;
 }
+
 
 h1 {
     color: black;
@@ -31,6 +32,8 @@ h1 {
     margin: 1rem;
     border-radius: 50%;
     align-self: flex-start;
+
+
 }
 
 .block-container {
@@ -88,11 +91,17 @@ li {
     background-color: #e9a7963d;
 
 }
+.pantalon:hover{
+    transform: scale(1.5);
+}
 
 .les-robes {
     border-radius:10px;
     padding:20px;
     background-color: #e9a7963b;
+}
+.les-robes:hover {
+    transform: scale(1.5);
 }
 
 .hauts {
@@ -100,18 +109,27 @@ li {
     padding:20px;
     background-color: #e9a7963b;
 }
+.hauts:hover{
+    transform: scale(1.5);
+}
 
 .les-chaussures {
     border-radius: 10px;
     padding: 20px;
     background-color: #e9a7963b;
 }
+.les-chaussures:hover{
+    transform: scale(1.5);  
+}
 
 .les-assessoires {
     border-radius: 10px;
     padding:20px;
     background-color: #e9a7963b;
-    height:11.5rem;
+    height:10 px;
+}
+.les-assessoires:hover {
+    transform: scale(1.5);  
 }
 
 .aside{
@@ -128,9 +146,9 @@ li {
     padding: 0;
     overflow: hidden;
     position: relative;
-    width: 50%;
+    width: 65%;
     max-width: 640px;
-    height: 100px;
+    height: 65px;
   }
    
   .messagedefilant h1 {
@@ -169,4 +187,23 @@ li {
     100% { margin-left: 0%; }
   }
  
-  
+  .like-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.like-button:hover {
+    background-color: #155db2;
+}
+
+.thumb-up {
+    margin-right: 8px;
+    font-size: 50px;
+}
