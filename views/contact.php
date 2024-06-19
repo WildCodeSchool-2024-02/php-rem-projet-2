@@ -17,29 +17,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
     <link rel="stylesheet" href="/assets/css/presentation.css" />
-    <link rel="stylesheet" href="/assets/css/les-lives.css">
 
-</head>
+
 </head>
 
 <body class="body">
-    <header>
-        <img class="logo-sylvie" src="/assets/images/logo-cilvie.png" alt="logo" />
-        <div class="header-title">
 
-        </div>
-    </header>
+    <img class="logo-sylvie" src="/assets/images/logo-cilvie.png" alt="logo" />
+    <div class="header-title">
+    </div>
 
     <div class="block-container">
-
         <aside class="aside">
             <nav>
                 <ul>
-                    <li><a href="/"><img src="/assets/images/acceuil.png"></a></li>
-                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a></li>
-                    <li><a href="contact"><img src="/assets/images/contact.png"></a></li>
-                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a></li>
+                <li><a href="/"><img src="/assets/images/acceuil.png"></a>Acceuil</li>
+                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a>N/A</li>
+                    <li><a href="contact"><img src="/assets/images/contact.png"></a>Contact</li>
+                    <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a>devweb</li>
+                    <li><a href="https://www.facebook.com/groups/850906159520243"><img src="/assets/images/logo-facebook.png"></a>FCB</li>
+                    <li><a href="https://www.instagram.com/stylvie02/"><img src="/assets/images/astagram.png"></a>PG/IG</li>
+                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a>les-lives</li>  
                 </ul>
+
             </nav>
         </aside>
         <main class="container">
@@ -69,13 +69,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </section>
         </main>
     </div>
-
-    <div class="footercontainer">
-        <p>&copy 2024 Wild code school<br>made 💓by wilders image </p>
-        <a href="https://www.facebook.com/groups/850906159520243"><img class="logofbook" src="assets\images\logo-facebook.png"></a>
-        <a href="https://www.instagram.com/stylvie02/?fbclid=IwZXh0bgNhZW0CMTAAAR135bri9_aOdu9Al-btQtlrKpM6cM7n4KCWw-AH1uJBZP0iJYBki9PNFPY_aem_AUN13yVYYQsQkOUjGngv-zfkWEfTVOyJgoi1pQGn4G_nQAYaJ6RUDbrRC1_wDkHP6h0_mAFsZNakStMTWnXINyeK"><img class="logoastagram" src="assets\images\astagram.png"></a>
-        <a href="https://www.facebook.com/groups/642571988082126"><img class="logoasdavdevep51" src="assets\images\davdevep51.png"></a>
-        <div class="footer-logo">
+    <footer>
+        <p>&copy 2024 Wild code school<br>made 💓Davdevep51 </p>
+    </footer>
 
 </body>
 

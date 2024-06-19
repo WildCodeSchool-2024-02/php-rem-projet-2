@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bangers&family=Pacifico&display=swap');
+
+
 header {
     background-image: url("../images/photonav.jpg");
     background-repeat: no-repeat;
@@ -13,18 +17,15 @@ header {
 }
 
 .photonavbar {
-    position: absolute;
     width: 50%;
-    top: 70px;
-    right: 270px;
 }
 
 
 h1 {
     color: black;
     text-align: center;
-   
-   
+    font-family: Pacifico;
+
 }
 
 .logo-sylvie {
@@ -38,13 +39,13 @@ h1 {
 
 .block-container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 10% 90%;
 }
 
 .block-container main {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
     margin: auto;
 }
 
@@ -52,28 +53,7 @@ li {
     width: 5rem;
 }
 
-.aside {
-    background-color: #E9A696;
-    width: 34%;
-    height: 15 vh;
-    border-radius: 0.5rem;
-    margin: 1.5rem;
-}
 
-.logofbook {
-    width: 5%;
-
-}
-
-.logoastagram {
-    width: 8%;
-
-}
-
-.logoasdavdevep51 {
-    width: 9%;
-
-}
 
 .neon-border {
     border: 2px solid #E9A696;
@@ -85,32 +65,35 @@ li {
     text-align: center;
 }
 
-.pantalon {
+.pantalons {
     border-radius: 10px;
     padding: 20px;
     background-color: #e9a7963d;
 
 }
-.pantalon:hover{
-    transform: scale(1.5);
+
+.pantalons:hover {
+    transform: scale(1.2);
 }
 
 .les-robes {
-    border-radius:10px;
-    padding:20px;
+    border-radius: 10px;
+    padding: 20px;
     background-color: #e9a7963b;
 }
+
 .les-robes:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .hauts {
     border-radius: 10px;
-    padding:20px;
+    padding: 20px;
     background-color: #e9a7963b;
 }
-.hauts:hover{
-    transform: scale(1.5);
+
+.hauts:hover {
+    transform: scale(1.2);
 }
 
 .les-chaussures {
@@ -118,25 +101,23 @@ li {
     padding: 20px;
     background-color: #e9a7963b;
 }
-.les-chaussures:hover{
-    transform: scale(1.5);  
+
+.les-chaussures:hover {
+    transform: scale(1.2);
 }
 
-.les-assessoires {
+.les-accessoirs {
     border-radius: 10px;
-    padding:20px;
+    padding: 20px;
     background-color: #e9a7963b;
-    height:10 px;
-}
-.les-assessoires:hover {
-    transform: scale(1.5);  
+    height: 13rem;
 }
 
-.aside{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.les-accessoirs:hover {
+    transform: scale(1.2);
 }
+
+
 
 
 /* Texte défilant */
@@ -149,45 +130,57 @@ li {
     width: 65%;
     max-width: 640px;
     height: 65px;
-  }
-   
-  .messagedefilant h1 {
+}
+
+.messagedefilant h1 {
     position: absolute;
-    min-width: 100%; /* au minimum la largeur du conteneur */
-  }
-   
-  .messagedefilant h1 span, 
-  .messagedefilant h1:after {
+    min-width: 100%;
+    /* au minimum la largeur du conteneur */
+}
+
+.messagedefilant h1 span,
+.messagedefilant h1:after {
     position: relative;
     display: inline-block;
     font-size: 2rem;
     white-space: nowrap;
-    top:0;
-  }
-   
-  .messagedefilant h1 span {
+    top: 0;
+}
+
+.messagedefilant h1 span {
     animation: defilement 10s infinite linear;
-  }
-   
-  .messagedefilant h1:after {
+}
+
+.messagedefilant h1:after {
     position: absolute;
-    top:0; left:0;
-    content:attr(data-text);
+    top: 0;
+    left: 0;
+    content: attr(data-text);
     animation: defilement2 10s infinite linear;
     background: #edc;
-  }
-   
-  @keyframes defilement {
-    0% { margin-left: 0; }
-    100% { margin-left: -100%; }
-  }
-   
-  @keyframes defilement2 {
-    0% { margin-left: 100%; }
-    100% { margin-left: 0%; }
-  }
- 
-  .like-button {
+}
+
+@keyframes defilement {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+
+@keyframes defilement2 {
+    0% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
+
+.like-button {
     display: inline-flex;
     align-items: center;
     padding: 10px 20px;
@@ -206,4 +199,29 @@ li {
 .thumb-up {
     margin-right: 8px;
     font-size: 50px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid div {
+    width: 10rem;
+    margin-right: 1.5rem;
+    min-height: 12rem;
+}
+
+.grid div p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.la-roulette {
+    background-image: url("../images/a-roulette.png");
+    width: 25%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
 }

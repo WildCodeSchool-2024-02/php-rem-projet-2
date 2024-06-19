@@ -40,7 +40,7 @@ textarea {
 }
 
 form {
-    width: 80%;
+    width: 145%;
     margin: auto;
     background-color: rgba(245, 245, 220, 0.272);
     border-radius: 1.2rem;
@@ -76,17 +76,6 @@ li {
     width: 5rem;
 }
 
-.logofbook {
-    width: 5%;
-}
-
-.logoastagram {
-    width: 8%;
-}
-.logoasdavdevep51{
-    width: 9%;
-
-}
 .neon-border{
     border: 2px solid #E9A696;
     box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
@@ -102,6 +91,10 @@ li {
 align-items: center;
 }
 .submit{
-    width:15%;
+    width:25%;
+   
  
+}
+section{
+    margin: 50px;
 }

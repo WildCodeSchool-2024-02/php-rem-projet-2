@@ -1,7 +1,12 @@
 .aside {
-    background-color: #E9A696; 
-    width: 50%;
-    height: 90vh;
-   border-radius:0.5rem;
-   margin:1.5rem ;
+    background-color: #e9a7966e;
+    width: 85%;
+    height: 130vh;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 11px rgb(218, 186, 238), 0 0 7px rgb(238, 230, 238), 0 0 16px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 17px rgb(228, 152, 152), 0 0 29px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
 }

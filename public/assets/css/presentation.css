@@ -16,11 +16,9 @@ header {
 }
 
 .photonavbar {
-    position: absolute;
     width: 50%;
-    top: 40px;
-    right: 350px;
 }
+
 
 h1 {
     color: black;
@@ -41,48 +39,29 @@ h1 {
 
 .block-container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 10% 90%;
 }
 
 .block-container main {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
     margin: auto;
 }
 
 .apropo {
     background-color: white;
-    width: 70%;
-    margin-top: 15rem;
+    margin-top: 1rem;
     font-family: Pacifico;
     font-size: 1.3em;
+    width: 65ch;
 }
 
 li {
     width: 5rem;
 }
 
-.aside {
-    background-color: #E9A696;
-    width: 34%;
-    height: 100vh;
-    border-radius: 0.5rem;
-    margin: 1.5rem;
-}
 
-.logofbook {
-    width: 5%;
-}
-
-.logoastagram {
-    width: 8%;
-}
-
-.logoasdavdevep51 {
-    width: 9%;
-
-}
 
 .neon-border {
     border: 2px solid #E9A696;
@@ -94,11 +73,6 @@ li {
     text-align: center;
 }
 
-.aside {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .messagedefilant {
     display: block;
     margin: 40px auto;
