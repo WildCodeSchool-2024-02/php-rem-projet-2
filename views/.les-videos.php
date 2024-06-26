@@ -1,10 +1,3 @@
-<?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    //traitement des données de l'utilisateur
-}
-?>
-<?php
-?>
 <!doctype html>
 <html lang="en">
 
@@ -12,17 +5,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/contact.css" />
-    <link rel="stylesheet" href="/assets/css/footer.css" />
-    <link rel="stylesheet" href="/assets/css/navbar.css" />
-
+    <link rel="stylesheet" href="/assets/css/index.css"/>
+    <link rel="stylesheet" href="/assets/css/footer.css"/>
+    <link rel="stylesheet" href="/assets/css/navbar.css"/>
 
 
 </head>
 
 <body class="body">
-
     <header>
         <img class="logo-sylvie" src="/assets/images/logo-cilvie.png" alt="logo" />
         <div class="header-title">
@@ -34,7 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
     </header>
-
+    <div class="header-title">
+    <div class="info"><span><H2><p>info : les lives seront prevenue sur le groupe face-boock,cliqure sur le le logo fb </p></H2></span></div>
     <div class="block-container">
         <aside class="aside">
             <nav>
@@ -47,34 +40,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <li><a href="https://www.instagram.com/stylvie02/"><img src="/assets/images/astagram.png"></a>PG/IG</li>
                     <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a>les-lives</li>
                 </ul>
-
             </nav>
         </aside>
-        <main class="container">
-            <div class="neon-border">
-                <h1 class="titrecontact">pour me contacter (stylvie) </h1>
-            </div>
 
-            <section>
-
-                <form>
-                    <fieldset>
-                        <label>Nom*</label>
-                        <input type="text" name="text" placeholder="écrire ici votre nom:" aria-label="Text" />
-                        <label>Prénom*</label>
-                        <input type="texe" name="text" placeholder="écrire ici votre prenom : " aria-label="Email" autocomplete="email" />
-                        <label>Email*</label>
-                        <input type="tel" name="tel" placeholder="écrire ici votre mail :" aria-label="text:" autocomplete="tel" />
-                        <label>n°telephonne * </label>
-                        <input type="tel" name="tel" placeholder="écrire ici votre numéro  Tel" aria-label="Tel" autocomplete="tel" />
-                        <label>Message</label>
-                        <textarea name="bio" placeholder="écrire votre texte ici: " aria-label="Professional short bio"></textarea>
-
-                    </fieldset>
-                    <div class="submit"><input type="submit" class="button-contact" value="envoyer" /></div>
-                </form>
-
-            </section>
+        <main>
+            <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
+           
+           
         </main>
     </div>
     <footer>

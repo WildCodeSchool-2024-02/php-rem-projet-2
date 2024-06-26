@@ -34,7 +34,6 @@ h1 {
     border-radius: 50%;
     align-self: flex-start;
 
-
 }
 
 .block-container {
@@ -225,3 +224,11 @@ li {
     display: flex;
     flex-direction: column;
 }
+
+.info{
+    background-color: black;
+}
+ .p1{
+    font-family: Pacifico;
+ }
+

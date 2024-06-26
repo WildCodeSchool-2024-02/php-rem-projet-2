@@ -3,6 +3,7 @@ require_once '../config/config.php';
 require_once '../models/item-model.php';
 
 $urlPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
 if ('/les-chaussures' === $urlPath) {
     include '../views/les-chaussures.php';
 } elseif ('/pantalons' === $urlPath) {
@@ -20,7 +21,21 @@ if ('/les-chaussures' === $urlPath) {
     include '../views/contact.php';
 } elseif ('/presentation' === $urlPath) {
     include '../views/apropo.php';
+} elseif ('/ref-des-hauts' === $urlPath) {
+    include '../views/ref-des-hauts.php';
+} elseif ('/ref-robes' === $urlPath) {
+    include '../views/ref-robes.php';
+} elseif ('/ref-accessoirs' === $urlPath) {
+    include '../views/ref-accessoirs.php';
+} elseif ('/les-videos' === $urlPath) {
+    include '../views/les-videos.php';
+} elseif ('/ref-pantalons' === $urlPath) {
+    include '../views/ref-pantalons.php';
+
+} elseif ('/ref-chaussures' === $urlPath) {
+    include '../views/ref-chaussures.php';
+
 } else {
+
     header('HTTP/1.1 404 Not Found');
 }
-

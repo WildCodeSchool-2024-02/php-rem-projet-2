@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />+
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
-    <link rel="stylesheet" href="/assets/css/pantalons.css" />
+    <link rel="stylesheet" href="/assets/css/ref-robes.css" />
 
 
 
@@ -36,7 +36,7 @@
                     <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a>les-lives</li>
                     <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a>devweb</li>
                     <li><a href="https://www.facebook.com/groups/850906159520243"><img src="/assets/images/logo-facebook.png"></a>FCB</li>
-                    <li><a href="https://www.instagram.com/stylvie02/"><img src="/assets/images/astagram.png"></a></li>
+                    <li><a href="https://www.instagram.com/stylvie02/"><img src="/assets/images/astagram.png"></a>PG/IG</li>
                 </ul>
             </nav>
         </aside>
@@ -44,30 +44,15 @@
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
-                <div class="photo-des-pantalons">
-                    <h2 class="titre-caroussel">Robes avec des motifs de couleurs</h2>
-                    <div class="slider-container">
-                        <div class="menu">
-                            <label for="slide-dot-1"></label>
-                            <label for="slide-dot-2"></label>
-
-                        </div>
-
-                        <a href="ref-pantalons">
-                            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-                            <img class="slide-img" src="/assets/img-pantalons/pantalonchino.png"></a>
-
-                        <a href="/">
-                            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/img-pantalons/pantalons1.png"></a>
-                    </div>
+                <div class="div-ref-robes"><img class="pref-robes" src="/assets/les-robes/robe-coleur1.png" alt="robes" />
+                    <p>Pantalons<br>Réf:20<br>taille:M XL XXL </p>
                 </div>
             </div>
         </main>
-    </div>
-    <footer>
-        <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
-    </footer>
+        </div>
+        <footer>
+            <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
+        </footer>
 
 </body>
 

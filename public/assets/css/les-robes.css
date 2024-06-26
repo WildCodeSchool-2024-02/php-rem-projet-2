@@ -179,3 +179,6 @@ img {
     z-index: 100;
     transition: left 0.65s ease-out;
   }
+  a{
+    text-decoration: none; 
+ }

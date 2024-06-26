@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
     <link rel="stylesheet" href="/assets/css/les-chaussures.css" />
@@ -44,26 +43,32 @@
         <main>
            
         <div class="grid">
-                <div class="photo-des-robes">
-                   <h2 class="titre-caroussel">Robes avec des motifs de couleurs</h2>
+                <div class="photo-des-chaussures">
+                   <h2 class="titre-caroussel">les chaussures</h2>
                     <div class="slider-container">
                         <div class="menu">
                             <label for="slide-dot-1"></label>
                             <label for="slide-dot-2"></label>
                             <label for="slide-dot-3"></label>
-                            
+                            <label for="slide-dot-4"></label>
+                            <label for="slide-dot-5"></label>
                         </div>
-
+                        <a href="ref-chaussures">
                         <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-                        <img class="slide-img" src="/assets/les-chaussures/basket.png">
-
+                       <img class="slide-img" src="/assets/les-chaussures/basket.png"></a>
+                       <a href="/">
                         <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
-                        <img class="slide-img" src="/assets/les-chaussures/chaussure-claquette.png">
-
+                        <img class="slide-img" src="/assets/les-chaussures/chaussure-claquette.png"></a>
+                        <a href="/">
                         <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
-                        <img class="slide-img" src="/assets/les-chaussures/en-toile.png">
-
-                        
+                        <img class="slide-img" src="/assets/les-chaussures/en-toile.png"></a>
+                        <a href="/">
+                        <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
+                        <img class="slide-img" src="/assets/les-chaussures/basket-motif.png"></a>
+                        <a href="/">
+                        <input class="slide-input" id="slide-dot-5" type="radio" name="slides">
+                        <img class="slide-img" src="/assets/les-chaussures/espadril2.png"></a>
+                    
                     </div>
                 </div>
             </div>

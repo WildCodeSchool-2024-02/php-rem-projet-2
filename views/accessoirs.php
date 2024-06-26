@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/index.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
     <link rel="stylesheet" href="/assets/css/accessoirs.css" />
@@ -30,7 +29,7 @@
         <aside class="aside">
             <nav>
                 <ul>
-                <li><a href="/"><img src="/assets/images/acceuil.png"></a>Acceuil</li>
+                    <li><a href="/"><img src="/assets/images/acceuil.png"></a>Acceuil</li>
                     <li><a href="presentation"><img src="/assets/images/apropo.png"></a>N/A</li>
                     <li><a href="contact"><img src="/assets/images/contact.png"></a>Contact</li>
                     <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a>devweb</li>
@@ -45,52 +44,48 @@
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
                 <div class="grid">
-                    <div class="photo-des-robes">
-                        <h2 class="titre-caroussel">Robes avec des motifs de couleurs</h2>
-                        <div class="slider-container">
-                            <div class="menu">
-                                <label for="slide-dot-1"></label>
-                                <label for="slide-dot-2"></label>
-                                <label for="slide-dot-3"></label>
-                                <label for="slide-dot-4"></label>
-                                <label for="slide-dot-5"></label>
-                                <label for="slide-dot-6"></label>
-                                <label for="slide-dot-7"></label>
-                                <label for="slide-dot-8"></label>
-                                <label for="slide-dot-9"></label>
-
-                            </div>
-
-                            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-                            <img class="slide-img" src="/assets/accessoirs/petit-sac1.png">
-
-                            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/petit-sac2.png">
-
-                            <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/portefeuil.png">
-
-                            <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/portefeuil2.png">
-
-                            <input class="slide-input" id="slide-dot-5" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/-accessoirs/portefeuil3.png">
-
-                            <input class="slide-input" id="slide-dot-6" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/sac1.png">
-
-                            <input class="slide-input" id="slide-dot-7" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/sac2.png">
-
-                            <input class="slide-input" id="slide-dot-8" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/sacoche1.png">
-
-                            <input class="slide-input" id="slide-dot-9" type="radio" name="slides">
-                            <img class="slide-img" src="/assets/accessoirs/sacoche2.png">
-
-
+                    <h2 class="titre-caroussel">Robes et des motifs de couleurs</h2>
+                    <div class="slider-container">
+                        <div class="menu">
+                            <label for="slide-dot-1"></label>
+                            <label for="slide-dot-2"></label>
+                            <label for="slide-dot-3"></label>
+                            <label for="slide-dot-4"></label>
+                            <label for="slide-dot-5"></label>
+                            <label for="slide-dot-6"></label>
+                            <label for="slide-dot-7"></label>
+                            <label for="slide-dot-8"></label>
+                            <label for="slide-dot-9"></label>
 
                         </div>
+                        <a href="ref-accessoirs">
+                            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+                            <img class="slide-img" src="/assets/accessoirs/portefeuil5.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/portefeuil4.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/portefeuil.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/portefeuil2.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-5" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/portefeuil3.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-6" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/sac1.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-7" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/sac2.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-8" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/sacoche1.png"></a>
+                        <a href="/">
+                            <input class="slide-input" id="slide-dot-9" type="radio" name="slides">
+                            <img class="slide-img" src="/assets/accessoirs/sacoche2.png"></a>
+
                     </div>
                 </div>
 

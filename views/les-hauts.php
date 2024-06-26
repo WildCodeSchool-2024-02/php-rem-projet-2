@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/index.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
     <link rel="stylesheet" href="/assets/css/les-hauts.css" />
@@ -39,22 +38,20 @@
                 </ul>
             </nav>
         </aside>
-
         <main>
             <div class="grid">
                 <div class="photo-des-robes">
-                    <h2 class="titre-caroussel">Robes avec des motifs de couleurs</h2>
+                    <h2 class="titre-caroussel">Colléction des hauts</h2>
                     <div class="slider-container">
                         <div class="menu">
                             <label for="slide-dot-1"></label>
                             <label for="slide-dot-2"></label>
                             <label for="slide-dot-3"></label>
-                           
-
                         </div>
 
-                        <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-                        <img class="slide-img" src="/assets/img-hauts/chemise.png">
+                        <a href="ref-des-hauts">
+                            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+                            <img class="slide-img" src="/assets/img-hauts/chemise.png"></a>
 
                         <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
                         <img class="slide-img" src="/assets/img-hauts/haut-poid-noir.png">

@@ -26,6 +26,8 @@
             </div>
         </div>
     </header>
+    <div class="header-title">
+    <div class="info"><span><H2><p>info : les lives seront prevenue sur le groupe face-boock,cliqure sur le le logo fb </p></H2></span></div>
     <div class="block-container">
         <aside class="aside">
             <nav>
@@ -44,7 +46,7 @@
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
-                <div><a href="./pantalons"><img class="pantalons" src="/assets/img-pantalons/pantalons2.png" alt="pantalons" /></a>
+                <div><a href="./pantalons"><img class="pantalons" src="/assets/img-pantalons/pantalonchino.png" alt="pantalons" /></a>
                     <p>pantalons<br>en tout genre</p>
                 </div>
                 <div><a href="./les-robes"><img class="les-robes" src="/assets/les-robes/robes-dessin6.png" alt="les-robes" /></a>
@@ -66,6 +68,7 @@
             <h2></h2>A chaque mois tire au sort* cadeaux suprise a chaque live*
         </main>
     </div>
+
     <footer>
         <p>&copy 2024 Wild code school<br>made 💓Davdevep51 </p>
     </footer>

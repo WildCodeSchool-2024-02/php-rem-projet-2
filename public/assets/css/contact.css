@@ -17,13 +17,13 @@ h3 {
 
 .block-container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 10% 90%;
 }
 
 .block-container main {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
     margin: auto;
 }
 
@@ -40,7 +40,7 @@ textarea {
 }
 
 form {
-    width: 145%;
+   
     margin: auto;
     background-color: rgba(245, 245, 220, 0.272);
     border-radius: 1.2rem;
@@ -70,31 +70,45 @@ label {
     width: 10rem;
     margin: 1rem;
     border-radius: 50%;
+    align-self: flex-start;
+
 }
 
 li {
     width: 5rem;
 }
 
-.neon-border{
+.neon-border {
     border: 2px solid #E9A696;
     box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
-    border-radius: 10px; 
+    border-radius: 10px;
     padding: 20px;
-    background-color: #E9A696;;
-    color: white; 
-    text-align: center; 
+    background-color: #E9A696;
+    ;
+    color: white;
+    text-align: center;
 }
-.aside{
+
+.aside {
     display: flex;
     flex-direction: column;
-align-items: center;
+    align-items: center;
+
 }
-.submit{
-    width:25%;
+
+.submit {
+    width: 50%;
+  
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem ;
+    align-items: center;
+}
+.button-contact{
    
- 
-}
-section{
-    margin: 50px;
 }
