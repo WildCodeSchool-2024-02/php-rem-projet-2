@@ -27,13 +27,15 @@ if ('/les-chaussures' === $urlPath) {
     include '../views/ref-robes.php';
 } elseif ('/ref-accessoirs' === $urlPath) {
     include '../views/ref-accessoirs.php';
-} elseif ('/les-videos' === $urlPath) {
-    include '../views/les-videos.php';
+} elseif ('/videos-live' === $urlPath) {
+    include '../views/videos-live.php';
 } elseif ('/ref-pantalons' === $urlPath) {
     include '../views/ref-pantalons.php';
 
 } elseif ('/ref-chaussures' === $urlPath) {
     include '../views/ref-chaussures.php';
+
+
 
 } else {
 

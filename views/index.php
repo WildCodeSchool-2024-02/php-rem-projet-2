@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
-   
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/index.css"/>
-    <link rel="stylesheet" href="/assets/css/footer.css"/>
-    <link rel="stylesheet" href="/assets/css/navbar.css"/>
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+    <link rel="stylesheet" href="/assets/css/navbar.css" />
+
 
 
 </head>
@@ -26,8 +27,7 @@
             </div>
         </div>
     </header>
-    <div class="header-title">
-    <div class="info"><span><H2><p>info : les lives seront prevenue sur le groupe face-boock,cliqure sur le le logo fb </p></H2></span></div>
+
     <div class="block-container">
         <aside class="aside">
             <nav>
@@ -46,26 +46,28 @@
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
+         
                 <div><a href="./pantalons"><img class="pantalons" src="/assets/img-pantalons/pantalonchino.png" alt="pantalons" /></a>
                     <p>pantalons<br>en tout genre</p>
                 </div>
                 <div><a href="./les-robes"><img class="les-robes" src="/assets/les-robes/robes-dessin6.png" alt="les-robes" /></a>
                     <p>les-robes<br> en tout genre</p>
                 </div>
-            
-                <div><a href="./les-hauts"><img class="hauts" src="/assets/img-hauts/veste.png" alt="les hauts" /></a>
-                    <p>les hauts<br> en tout genre</p>
-                </div>
-                <div><a href="./les-chaussures"><img class="les-chaussures" src="/assets/les-chaussures/en-toile.png" alt="les-chaussures" /></a>
-                    <p>les-chaussures<br> en tout genre</p>
-                </div>
+
                 <div><a href="./les-accessoirs"><img class="les-accessoirs" src="/assets/accessoirs/portefeuil.png" alt="les-accessoirs" /></a>
                     <p>les-assessoires<br> en tout genre</p>
                 </div>
 
+                <div><a href="./les-chaussures"><img class="les-chaussures" src="/assets/les-chaussures/en-toile.png" alt="les-chaussures" /></a>
+                    <p>les-chaussures<br> en tout genre</p>
+                </div>
+                <div><a href="./les-hauts"><img class="hauts" src="/assets/img-hauts/veste.png" alt="les hauts" /></a>
+                    <p>les hauts<br> en tout genre</p>
+                </div>
             </div>
             <img class="la-roulette" src="/assets/images/la-roulette.png" alt="photo-la-roulette">
-            <h2></h2>A chaque mois tire au sort* cadeaux suprise a chaque live*
+         
+          <p class="clignotant"><h3>A chaque mois tire au sort 1 cadeaux suprise a chaque live*</h3></p>
         </main>
     </div>
 

@@ -38,6 +38,7 @@ header {
 li {
     width: 5rem;
 }
+
 .logo-sylvie {
     width: 10rem;
     margin: 1rem;
@@ -63,22 +64,25 @@ li {
 
 img {
     max-width: 100%;
-  }
-  .slider-container {
+}
+
+.slider-container {
     position: relative;
     margin: auto;
     height: 70vh;
     overflow: hidden;
-  }
-  .menu {
+}
+
+.menu {
     position: absolute;
     right: 80px;
     z-index: 11;
     width: 100%;
     bottom: 0;
     text-align: center;
-  }
-  .menu label {
+}
+
+.menu label {
     cursor: pointer;
     display: inline-block;
     width: 10px;
@@ -86,14 +90,18 @@ img {
     background: #ccc;
     border-radius: 50px;
     margin: 0 0.2em 1em;
-  }
-  .menu label:hover,.menu label:focus {
+}
+
+.menu label:hover,
+.menu label:focus {
     background: #1c87c9;
-  }
-  .slide-input{
+}
+
+.slide-input {
     opacity: 0;
-  }
-  .slide-img {
+}
+
+.slide-img {
     width: 20vw;
     height: 60vh;
     position: absolute;
@@ -101,15 +109,17 @@ img {
     left: 100%;
     z-index: 10;
     transition: left 0s 0.75s;
-    border: black solid 2px ;
+    border: black solid 2px;
 
-  }
-  [id^="slide"]:checked + .slide-img {
+}
+
+[id^="slide"]:checked+.slide-img {
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
-  }
-  .neon-border {
+}
+
+.neon-border {
     border: 2px solid #E9A696;
     box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
     border-radius: 10px;
@@ -177,14 +187,64 @@ img {
         margin-left: 0%;
     }
 }
-.div-ref-robes{
-    width:15%;
+
+.div-ref-robes {
+    width: 30%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 1rem;
+    border: 2px black solid ;
 }
+
 .grid {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.pastille {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.bleu {
+    background-color: blue;
+}
+.vert {
+    background-color: green;
+}
+.rouge {
+    background-color: red;
+}
+.jaune {
+    background-color: yellow;
+}
+.ttes-les-pastilles{
+    display: flex;
+    justify-content:center
+}
+
+@media only screen and (max-width: 720px) {
+    .pref-robes{
+        width:150% ;
+        margin: auto;
+    }
+    .div-ref-robes{
+      width:150%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin:10rem ;
+    }
+    .div-ref-robes {
+        width: 170%;
+}
+}
+ 

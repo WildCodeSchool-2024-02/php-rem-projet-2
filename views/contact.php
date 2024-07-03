@@ -29,9 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="neon-border messagedefilant">
                 <h1> <span>*ma petite boutique en ligne*</span> </h1>
             </div>
-            <div class="like-button">
-                <span class="thumb-up">&#128077;</span> Like
-            </div>
+           
         </div>
     </header>
 
@@ -59,6 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <form>
                     <fieldset>
+
                         <label>Nom*</label>
                         <input type="text" name="text" placeholder="écrire ici votre nom:" aria-label="Text" />
                         <label>Prénom*</label>

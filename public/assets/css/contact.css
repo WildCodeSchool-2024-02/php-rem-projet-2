@@ -36,6 +36,7 @@ textarea {
     resize: none;
     margin-top: 2rem;
     border: 2rem;
+    
 
 }
 
@@ -44,7 +45,7 @@ form {
     margin: auto;
     background-color: rgba(245, 245, 220, 0.272);
     border-radius: 1.2rem;
-    padding: 2rem;
+    padding: 10rem;
 }
 
 input,
@@ -53,14 +54,29 @@ textarea {
     padding: 0.5rem;
     border: 1px solid;
     border-radius: 12px;
-
+   
+  
 }
 
 input {
     width: 90%;
     display: flex;
     text-align: center;
+   
+  
+   
 }
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 label {
     color: black;
@@ -71,12 +87,13 @@ label {
     margin: 1rem;
     border-radius: 50%;
     align-self: flex-start;
-
+    
 }
 
 li {
     width: 5rem;
 }
+
 
 .neon-border {
     border: 2px solid #E9A696;
@@ -88,6 +105,70 @@ li {
     color: white;
     text-align: center;
 }
+/* Texte défilant */
+.messagedefilant {
+    display: block;
+    margin: 40px auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 65%;
+    max-width: 640px;
+    height: 65px;
+}
+
+.messagedefilant h1 {
+    position: absolute;
+    min-width: 100%;
+    /* au minimum la largeur du conteneur */
+}
+
+
+.messagedefilant h1 span,
+.messagedefilant h1 :after {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    white-space: nowrap;
+    top: 0;
+}
+
+
+.messagedefilant h1 span {
+    animation: defilement 10s infinite linear;
+}
+
+.messagedefilant h1:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(data-text);
+    animation: defilement2 10s infinite linear;
+    background: #edc;
+}
+
+@keyframes defilement {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+h3{
+    font-family:Pacifico; 
+    color: #050505;
+}
+@keyframes defilement2 {
+    0% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
 
 .aside {
     display: flex;
@@ -98,9 +179,8 @@ li {
 
 .submit {
     width: 50%;
-  
-
-
+   
+   
 }
 
 section {
@@ -108,7 +188,5 @@ section {
     flex-direction: column;
     margin-top:1rem ;
     align-items: center;
-}
-.button-contact{
-   
+    
 }

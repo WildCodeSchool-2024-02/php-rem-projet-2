@@ -29,13 +29,13 @@
         <aside class="aside">
             <nav>
                 <ul>
-                    <li><a href="/"><img src="/assets/images/acceuil.png"></a></li>
-                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a></li>
-                    <li><a href="contact"><img src="/assets/images/contact.png"></a></li>
-                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a></li>
-                    <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a></li>
-                    <li><a href="https://www.facebook.com/groups/850906159520243"><img src="/assets/images/logo-facebook.png"></a></li>
-                    <li><a href="https://www.instagram.com/stylvie02/"><img src="/assets/images/astagram.png"></a></li>
+                    <li><a href="/"><img src="/assets/images/acceuil.png"></a>Acceuil</li>
+                    <li><a href="presentation"><img src="/assets/images/apropo.png"></a>N/A</li>
+                    <li><a href="contact"><img src="/assets/images/contact.png"></a>Contact</li>
+                    <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a>les-lives</li>
+                    <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a>devweb</li>
+                    <li><a href="https://www.facebook.com/groups/850906159520243"><img src="/assets/images/logo-facebook.png"></a>FCB</li>
+                    <li><a href="https://www.instagram.com/stylvie02/"><img src="/assets/images/astagram.png"></a>PG/IG</li>
                 </ul>
             </nav>
         </aside>

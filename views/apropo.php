@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/footer.css"/>
-    <link rel="stylesheet" href="/assets/css/navbar.css"/>
-    <link rel="stylesheet" href="/assets/css/presentation.css"/>
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+    <link rel="stylesheet" href="/assets/css/navbar.css" />
+    <link rel="stylesheet" href="/assets/css/presentation.css" />
 </head>
 
 <body class="body">
@@ -27,7 +27,7 @@
         <aside class="aside">
             <nav>
                 <ul>
-                <li><a href="/"><img src="/assets/images/acceuil.png"></a>Acceuil</li>
+                    <li><a href="/"><img src="/assets/images/acceuil.png"></a>Acceuil</li>
                     <li><a href="presentation"><img src="/assets/images/apropo.png"></a>N/A</li>
                     <li><a href="contact"><img src="/assets/images/contact.png"></a>Contact</li>
                     <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a>devweb</li>

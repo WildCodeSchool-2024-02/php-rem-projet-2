@@ -38,6 +38,7 @@ header {
 li {
     width: 5rem;
 }
+
 .logo-sylvie {
     width: 10rem;
     margin: 1rem;
@@ -63,22 +64,25 @@ li {
 
 img {
     max-width: 100%;
-  }
-  .slider-container {
+}
+
+.slider-container {
     position: relative;
     margin: auto;
     height: 70vh;
     overflow: hidden;
-  }
-  .menu {
+}
+
+.menu {
     position: absolute;
     right: 80px;
     z-index: 11;
     width: 100%;
     bottom: 0;
     text-align: center;
-  }
-  .menu label {
+}
+
+.menu label {
     cursor: pointer;
     display: inline-block;
     width: 10px;
@@ -86,30 +90,36 @@ img {
     background: #ccc;
     border-radius: 50px;
     margin: 0 0.2em 1em;
-  }
-  .menu label:hover,.menu label:focus {
+}
+
+.menu label:hover,
+.menu label:focus {
     background: #1c87c9;
-  }
-  .slide-input{
+}
+
+.slide-input {
     opacity: 0;
-  }
-  .slide-img {
+}
+
+.slide-img {
     width: 20vw;
-    height: 60vh;
+    height: 50vh;
     position: absolute;
-    top: 0;
+    top: 15%;
     left: 100%;
     z-index: 10;
     transition: left 0s 0.75s;
-    border: black solid 2px ;
+    border: black solid 2px;
 
-  }
-  [id^="slide"]:checked + .slide-img {
+}
+
+[id^="slide"]:checked+.slide-img {
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
-  }
-  .neon-border {
+}
+
+.neon-border {
     border: 2px solid #E9A696;
     box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
     border-radius: 10px;
@@ -177,14 +187,41 @@ img {
         margin-left: 0%;
     }
 }
-.pantalons{
-    width:15% ;
+
+.pantalons {
+    width: 15%;
 }
-.div-pantalons{
+
+.div-pantalons {
     display: flex;
     flex-direction: row;
- justify-content: center;
+    justify-content: center;
 }
-a{
-    text-decoration: none; 
- }
+
+a {
+    text-decoration: none;
+}
+
+@media screen and  (max-width: 720px) {
+
+    .block-container {
+       display:block !important;
+    }
+    .slide-img {
+        width:15rem ;
+        margin:1rem 5rem  5rem 5rem ;
+        height:19rem ;
+   }
+.titre-caroussel{
+   text-align: center;
+  margin-bottom: 0%;
+}
+.menu{
+    right:18px ;
+    bottom: 70px; ;
+}
+   }
+    
+
+   
+   

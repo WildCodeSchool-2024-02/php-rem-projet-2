@@ -16,6 +16,11 @@ header {
     flex: 1;
 }
 
+.info-facebook {
+    flex: 1;
+
+}
+
 .photonavbar {
     width: 50%;
 }
@@ -32,9 +37,9 @@ h1 {
     width: 10rem;
     margin: 1rem;
     border-radius: 50%;
-    align-self: flex-start;
-
+    padding: 10px;
 }
+
 
 .block-container {
     display: grid;
@@ -58,7 +63,7 @@ li {
     border: 2px solid #E9A696;
     box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
     border-radius: 10px;
-    padding: 20px;
+    padding: 80px;
     background-color: #E9A696;
     color: white;
     text-align: center;
@@ -79,10 +84,12 @@ li {
     border-radius: 10px;
     padding: 20px;
     background-color: #e9a7963b;
+
 }
 
 .les-robes:hover {
     transform: scale(1.2);
+
 }
 
 .hauts {
@@ -137,14 +144,16 @@ li {
     /* au minimum la largeur du conteneur */
 }
 
+
 .messagedefilant h1 span,
-.messagedefilant h1:after {
+.messagedefilant h1 :after {
     position: relative;
     display: inline-block;
     font-size: 2rem;
     white-space: nowrap;
     top: 0;
 }
+
 
 .messagedefilant h1 span {
     animation: defilement 10s infinite linear;
@@ -167,6 +176,18 @@ li {
     100% {
         margin-left: -100%;
     }
+}
+
+h3 {
+    font-family: Pacifico;
+    color: #050505;
+    animation: clignotement 1s infinite;
+
+}
+@keyframes clignotement {
+    0% {  color: rgb(229, 153, 153); }
+    50% { color: rgb(73, 73, 77); }
+    100% { color: rgb(229, 153, 153); }
 }
 
 @keyframes defilement2 {
@@ -210,11 +231,13 @@ li {
     width: 10rem;
     margin-right: 1.5rem;
     min-height: 12rem;
+
 }
 
 .grid div p {
     margin-top: 1rem;
     text-align: center;
+
 }
 
 .la-roulette {
@@ -225,10 +248,71 @@ li {
     flex-direction: column;
 }
 
-.info{
-    background-color: black;
-}
- .p1{
-    font-family: Pacifico;
- }
 
+
+.p1 {
+    font-family: Pacifico;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+   
+    .logo-sylvie {
+        width: 7%;
+    }
+
+    .grid {
+
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+
+    }
+
+    .grid div {
+        width: 5rem;
+        margin-right: 1.rem;
+        min-height: 10rem;
+    }
+
+   
+
+
+
+    .les-hauts {
+        border-radius: 10px;
+        padding: 12px;
+        background-color: #e9a7963b;
+        height: 7rem;
+    }
+
+    .les-chaussures {
+        border-radius: 10px;
+        padding: 12px;
+        background-color: #e9a7963b;
+        height: 7rem;
+    }
+
+    header {
+        background-image: url("../images/photonav.jpg");
+
+    }
+
+h3{
+    font-size: 25px; ;
+}
+.les-accessoirs{
+    height: 7rem ;
+}
+.block-container {
+    display: flex;
+  
+}
+}

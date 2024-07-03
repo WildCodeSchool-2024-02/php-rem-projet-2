@@ -44,14 +44,35 @@
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
-                <div class= "div-ref-chaussures"><img class="ref-chausssures" src="/assets/les-chaussures/basket.png" alt="ref-les-chaussures" /></div>
-                    <p>Pantalons<br>Réf:20<br>taille:M XL XXL </p>
+                <div class="div-ref-chaussures">
+                    <img class="ref-chausssures" src="/assets/les-chaussures/basket.png" alt="ref-les-chaussures" />
+                    <div class="ttes-les-pastilles">
+                        <div class="pastille vert"></div>
+                        <div class="pastille rouge"></div>
+                        <div class="pastille jaune"></div>
+                        <div class="pastille bleu"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantite">Quantité:</label>
+                        <input type="number" id="quantite" name="quantite" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="taille">taille:</label>
+                        <select id="produit" name="produit" required>
+                            <option value="Produit A">M</option>
+                            <option value="Produit B">XL</option>
+                            <option value="Produit C">XXL</option>
+                        </select>
+                    </div>
+                    <p>Réff:03</p>
+                    <button type="submit">Soumettre la Commande</button>
                 </div>
+            </div>
         </main>
-        </div>
-        <footer>
-            <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
-        </footer>
+    </div>
+    <footer>
+        <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
+    </footer>
 
 </body>
 

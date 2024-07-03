@@ -178,19 +178,66 @@ img {
         margin-left: 0%;
     }
 }
-.div-ref-robes{
-    width:15%;
-}
 
 
 .div-ref-accessoirs{
-    width: 15% ;  
+    width: 30% ;  
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 1rem;
+    border: 2px black solid ;
+
 }
 .grid {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.pastille {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.bleu {
+    background-color: blue;
+}
+.vert {
+    background-color: green;
+}
+.rouge {
+    background-color: red;
+}
+.jaune {
+    background-color: yellow;
+}
+.ttes-les-pastilles{
+    display: flex;
+    justify-content:center
+}
+
+
+@media only screen and (max-width: 720px) {
+    .pref-accessoires{
+        width:150% ;
+        margin: auto;
+    }
+    .div-ref-accessoirs{
+      width:150%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin:10rem ;
+    }
+    .div-ref-accessoirs {
+        width: 170%;
+}
+}
+    

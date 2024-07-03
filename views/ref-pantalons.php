@@ -44,11 +44,31 @@
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
-                <div class="div-ref-pantalons"><img class="ref-pantalons" src="assets/img-pantalons/pantalonchino.png" alt="pantalons" />
-                <p>Pantalons<br>Réf:20<br>taille:M XL XXL </p>
+                <div class="clignotant"></div>
+                <div class="div-ref-pantalons">
+                    <img class="ref-pantalons" src="assets/img-pantalons/pantalonchino.png" alt="pantalons" />
+                    <div class="ttes-les-pastilles">
+                        <div class="pastille vert"></div>
+                        <div class="pastille rouge"></div>
+                        <div class="pastille jaune"></div>
+                        <div class="pastille bleu"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantite">Quantité:</label>
+                        <input type="number" id="quantite" name="quantite" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="taille">taille:</label>
+                        <select id="produit" name="produit" required>
+                            <option value="Produit A">M</option>
+                            <option value="Produit B">XL</option>
+                            <option value="Produit C">XXL</option>
+                        </select>
+                    </div>
+                    <p>Réff:05</p>
+                </div>
             </div>
-    </div>
-    </main>
+        </main>
     </div>
     <footer>
         <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>

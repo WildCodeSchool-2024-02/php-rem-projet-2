@@ -180,3 +180,24 @@ img {
 a{
     text-decoration: none; 
  }
+
+ @media screen and  (max-width: 720px) {
+
+ 
+    .block-container {
+        display:block !important;
+     }
+     .slide-img {
+         width:15rem ;
+         margin:1rem 5rem  5rem 5rem ;
+         height:19rem ;
+    }
+ .titre-caroussel{
+    text-align: center;
+   margin-bottom: 0%;
+ }
+ .menu{
+     right:18px ;
+     bottom: 70px; ;
+ }
+}
