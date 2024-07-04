@@ -10,9 +10,68 @@
     align-items: center;
     box-shadow: 0 0 11px rgb(218, 186, 238), 0 0 7px rgb(238, 230, 238), 0 0 16px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 17px rgb(228, 152, 152), 0 0 29px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
 }
+
+.sidenav{
+    display: none;
+}
+
 @media only screen and (max-width: 720px) {
    .aside{
     display:none ;
    }
-    
+
+/* Sidenav menu */
+.sidenav {
+display: block;
+  height: 98%;
+  width: 82px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color:#ecbebea8; 
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d4cbcbf0;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
 }

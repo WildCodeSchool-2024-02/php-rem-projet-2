@@ -38,6 +38,25 @@
                 </ul>
             </nav>
         </aside>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">&times;</a>
+            <ul>
+                <li><a href="/"><img src="/assets/images/acceuil.png"></a>Accueil</li>
+                <li><a href="presentation"><img src="/assets/images/apropo.png"></a>N/A</li>
+                <li><a href="contact"><img src="/assets/images/contact.png"></a>Contact</li>
+                <li><a href="https://www.facebook.com/groups/642571988082126"><img src="/assets/images/davdevep51.png"></a>devweb</li>
+                <li><a href="https://www.facebook.com/groups/850906159520243"><img src="/assets/images/logo-facebook.png"></a>FCB</li>
+                <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a>les-lives</li>
+            </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
         <main>
             <div class="grid">
                 <div class="photo-des-robes">

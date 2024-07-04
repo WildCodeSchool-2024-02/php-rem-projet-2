@@ -125,5 +125,12 @@ li {
   }
 
   @media only screen and (max-width: 720px) {
-    
+    .apropo{ 
+      font-size: 5 rem ;
+      width:20ch ;
+      margin-top: 0%;
+      text-align: center;
+      margin: 4rem;
+    }
+   
   }
