@@ -36,12 +36,12 @@ textarea {
     resize: none;
     margin-top: 2rem;
     border: 2rem;
-    
+
 
 }
 
 form {
-   
+
     margin: auto;
     background-color: rgba(245, 245, 220, 0.272);
     border-radius: 1.2rem;
@@ -54,29 +54,32 @@ textarea {
     padding: 0.5rem;
     border: 1px solid;
     border-radius: 12px;
-   
-  
+
+
 }
 
 input {
     width: 90%;
     display: flex;
     text-align: center;
-   
-  
-   
+
+
+
 }
+
 @keyframes bounce {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
+
     50% {
-      transform: translateY(-10px);
+        transform: translateY(-10px);
     }
+
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
+}
 
 label {
     color: black;
@@ -87,7 +90,7 @@ label {
     margin: 1rem;
     border-radius: 50%;
     align-self: flex-start;
-    
+
 }
 
 li {
@@ -105,6 +108,7 @@ li {
     color: white;
     text-align: center;
 }
+
 /* Texte défilant */
 .messagedefilant {
     display: block;
@@ -156,10 +160,12 @@ li {
         margin-left: -100%;
     }
 }
-h3{
-    font-family:Pacifico; 
+
+h3 {
+    font-family: Pacifico;
     color: #050505;
 }
+
 @keyframes defilement2 {
     0% {
         margin-left: 100%;
@@ -179,36 +185,35 @@ h3{
 
 .submit {
     width: 50%;
-   
-   
+
+
 }
 
 section {
     display: flex;
     flex-direction: column;
-    margin-top:1rem ;
+    margin-top: 1rem;
     align-items: center;
-    
+
 }
+
 @media only screen and (max-width: 720px) {
-/* 
-    .form-container {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: #f9f9f9;
+
+    .block-container {
+        display: grid;
+        grid-template-columns: 20% 80%;
     }
-     */
-     .block-container {
-        grid-template-columns: 1fr;
-    }
+
+
     .neon-border {
         padding: 10px;
     }
+
     form {
         padding: 1rem;
     }
+
+
    
-}
+   }
+

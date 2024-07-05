@@ -183,6 +183,17 @@ a{
 
  @media screen and  (max-width: 720px) {
 
+ .button-nav img {
+        border-radius: 50%;
+        border: .25rem solid rgb(251, 177, 177);
+        width: 5rem;
+    }
+
+    [id^="slide"]:checked+.slide-img {
+        left: -59px;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
  
     .block-container {
         display:block !important;

@@ -52,46 +52,46 @@
             </ul>
         </div>
 
-        <a href="#" id="openBtn">
+        <a href="#" id="openBtn" class="button-nav">
             <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
+                <img src="/assets/images/logo-burger.png" alt="">
             </span>
         </a>
+
+
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
             <div class="grid">
                 <div class="div-ref-des-hauts"><img class="ref-des-hauts" src="/assets/img-hauts/chemise.png" alt="ref-des-hauts" />
-                <div class="ttes-les-pastilles">
-                    <div class="pastille vert"></div>
-                    <div class="pastille rouge"></div>
-                    <div class="pastille jaune"></div>
-                    <div class="pastille bleu"></div>
+                    <div class="ttes-les-pastilles">
+                        <div class="pastille vert"></div>
+                        <div class="pastille rouge"></div>
+                        <div class="pastille jaune"></div>
+                        <div class="pastille bleu"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantite">Quantité:</label>
+                        <input type="number" id="quantite" name="quantite" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="taille">taille:</label>
+                        <select id="produit" name="produit" required>
+                            <option value="Produit A">M</option>
+                            <option value="Produit B">XL</option>
+                            <option value="Produit C">XXL</option>
+                        </select>
+                    </div>
+                    <p>Réff:09</p>
+                    <button type="submit">Soumettre la Commande</button>
                 </div>
-                <div class="form-group">
-                <label for="quantite">Quantité:</label>
-                <input type="number" id="quantite" name="quantite" min="1" required>
             </div>
-                <div class="form-group">
-                <label for="taille">taille:</label>
-                <select id="produit" name="produit" required>
-                    <option value="Produit A">M</option>
-                    <option value="Produit B">XL</option>
-                    <option value="Produit C">XXL</option>
-                </select>
-            </div>
-            <p>Réff:09</p>
-            <button type="submit">Soumettre la Commande</button>
-                </div>
-                </div>
-            </div>
-        </main>
-        </div>
-        <footer>
-            <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
-        </footer>
 
+        </main>
+    </div>
+    <footer>
+        <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
+    </footer>
+    <script src="/assets/js/navbar.js"></script>
 </body>
 
 </html>

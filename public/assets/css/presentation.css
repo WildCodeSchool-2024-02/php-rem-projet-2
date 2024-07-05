@@ -2,65 +2,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bangers&family=Pacifico&display=swap');
 
 header {
-    background-image: url("../images/photonav.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  background-image: url("../images/photonav.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header-title {
-    flex: 1;
+  flex: 1;
 }
 
 .photonavbar {
-    width: 50%;
+  width: 50%;
 }
 
 
 h1 {
-    color: black;
-    font-family: Pacifico;
+  color: black;
+  font-family: Pacifico;
 
 }
 
 .logo-sylvie {
-    width: 10rem;
-    margin: 1rem;
-    border-radius: 50%;
-    align-self: flex-start;
+  width: 10rem;
+  margin: 1rem;
+  border-radius: 50%;
+  align-self: flex-start;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .block-container {
-    display: grid;
-    grid-template-columns: 10% 90%;
+  display: grid;
+  grid-template-columns: 10% 90%;
 }
 
 .block-container main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
 }
 
 .apropo {
-    background-color: white;
-    margin-top: 1rem;
-    font-family: Pacifico;
-    font-size: 1.3em;
-    width: 65ch;
+  background-color: white;
+  margin-top: 1rem;
+  font-family: Pacifico;
+  font-size: 1.3em;
+  width: 65ch;
 }
 
 li {
-    width: 5rem;
+  width: 5rem;
 }
+
 .like-button:hover {
   background-color: #155db2;
 }
@@ -69,68 +70,102 @@ li {
 
 
 .neon-border {
-    border: 2px solid #E9A696;
-    box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #E9A696;
-    color: white;
-    text-align: center;
+  border: 2px solid #E9A696;
+  box-shadow: 0 0 10px rgb(218, 186, 238), 0 0 20px rgb(238, 230, 238), 0 0 30px rgb(222, 205, 231), 0 0 40px rgb(222, 245, 245), 0 0 50px rgb(228, 152, 152), 0 0 60px rgb(178, 147, 179), 0 0 70px rgb(239, 219, 243);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #E9A696;
+  color: white;
+  text-align: center;
 }
 
 .messagedefilant {
-    display: block;
-    margin: 40px auto;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    width: 65%;
-    max-width: 640px;
-    height: 65px;
-  }
-  .messagedefilant h1 {
-    position: absolute;
-    min-width: 100%; /* au minimum la largeur du conteneur */
-  }
-   
-  .messagedefilant h1 span, 
-  .messagedefilant h1:after {
-    position: relative;
-    display: inline-block;
-    font-size: 2rem;
-    white-space: nowrap;
-    top:0;
-  }
-   
-  .messagedefilant h1 span {
-    animation: defilement 10s infinite linear;
-  }
-   
-  .messagedefilant h1:after {
-    position: absolute;
-    top:0; left:0;
-    content:attr(data-text);
-    animation: defilement2 10s infinite linear;
-    background: #edc;
-  }
-   
-  @keyframes defilement {
-    0% { margin-left: 0; }
-    100% { margin-left: -100%; }
-  }
-   
-  @keyframes defilement2 {
-    0% { margin-left: 100%; }
-    100% { margin-left: 0%; }
+  display: block;
+  margin: 40px auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 65%;
+  max-width: 640px;
+  height: 65px;
+}
+
+.messagedefilant h1 {
+  position: absolute;
+  min-width: 100%;
+  /* au minimum la largeur du conteneur */
+}
+
+.messagedefilant h1 span,
+.messagedefilant h1:after {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  white-space: nowrap;
+  top: 0;
+}
+
+.messagedefilant h1 span {
+  animation: defilement 10s infinite linear;
+}
+
+.messagedefilant h1:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-text);
+  animation: defilement2 10s infinite linear;
+  background: #edc;
+}
+
+@keyframes defilement {
+  0% {
+    margin-left: 0;
   }
 
-  @media only screen and (max-width: 720px) {
-    .apropo{ 
-      font-size: 5 rem ;
-      width:20ch ;
-      margin-top: 0%;
-      text-align: center;
-      margin: 4rem;
-    }
-   
+  100% {
+    margin-left: -100%;
   }
+}
+
+@keyframes defilement2 {
+  0% {
+    margin-left: 100%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+  .grid {
+
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+.grid div {
+    width: 5rem;
+    margin-right: 1.rem;
+    min-height: 10rem;
+}
+  .apropo {
+    font-size: 5 rem;
+    width: 20ch;
+    margin-top: 0%;
+    text-align: center;
+    margin: 4rem;
+  }
+
+  
+
+}

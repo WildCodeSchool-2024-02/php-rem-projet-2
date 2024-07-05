@@ -223,23 +223,34 @@ a{
     margin:10rem ;
 }
 @media only screen and (max-width: 720px) {
-    .ref-chaussures{
-        width:80% ;
-        margin: auto;
+    .block-container {
+        display: flex;
     }
-    .div-ref-robes{
-      width:150%;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-    .grid {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin:10rem ;
-    }
+    
+ 
+
     .div-ref-chaussures {
-        width: 170%;
-}
+        width: 300%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin:-4rem ;
+        
+    }
+
+    .grid {
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-gap: 10px;
+    }
+    .button-nav img {
+        border-radius: 50%;
+        border: .25rem solid rgb(251, 177, 177);
+        width: 5rem;
+    } 
+    .photonavbar{
+      margin:5rem ;
+      margin-top:-2rem ;
+    }
 }

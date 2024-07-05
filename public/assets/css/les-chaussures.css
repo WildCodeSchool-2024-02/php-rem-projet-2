@@ -189,7 +189,12 @@ a{
  }
  @media screen and  (max-width: 720px) {
 
- 
+   
+  .button-nav img {
+        border-radius: 50%;
+        border: .25rem solid rgb(251, 177, 177);
+        width: 5rem;
+    }
     .block-container {
         display:block !important;
      }
@@ -203,8 +208,8 @@ a{
    margin-bottom: 0%;
  }
  .menu{
-     right:18px ;
-     bottom: 70px; ;
+     right:5px ;
+     bottom: 134px; ;
  }
  
 }

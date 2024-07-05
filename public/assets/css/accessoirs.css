@@ -193,6 +193,27 @@ a{
 }
 @media screen and  (max-width: 720px) {
 
+    .menu {
+        position: absolute;
+        right: 52px;
+        z-index: 11;
+        width: 66%;
+        bottom: 209px;
+        text-align: center;
+    }
+
+    .button-nav img {
+        border-radius: 50%;
+        border: .25rem solid rgb(251, 177, 177);
+        width: 5rem;
+    }
+    
+    [id^="slide"]:checked+.slide-img {
+        left: 30px;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
+
     .block-container {
        display:block !important; 
        margin-inline: 2rem ;

@@ -220,24 +220,25 @@ img {
 
 
 @media only screen and (max-width: 720px) {
+    .block-container {
+        display: flex;
+    }
     .pref-accessoires{
         width:150% ;
         margin: auto;
     }
     .div-ref-accessoirs{
-      width:150%;
+      width:80%;
       display: flex;
       flex-direction: column;
       text-align: center;
     }
     .grid {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin:10rem ;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-gap: 10px;
     }
-    .div-ref-accessoirs {
-        width: 170%;
-}
+  
 }
     

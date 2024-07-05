@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="neon-border messagedefilant">
                 <h1> <span>*ma petite boutique en ligne*</span> </h1>
             </div>
-           
+
         </div>
     </header>
 
@@ -48,6 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             </nav>
         </aside>
+
         <div id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">&times;</a>
             <ul>
@@ -60,13 +61,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </ul>
         </div>
 
-        <a href="#" id="openBtn">
+        <a href="#" id="openBtn" class="button-nav">
             <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
+                <img src="/assets/images/logo-burger.png" alt="">
             </span>
         </a>
+
         <main class="container">
             <div class="neon-border">
                 <h1 class="titrecontact">pour me contacter (stylvie) </h1>
@@ -75,6 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <section>
 
                 <form>
+
                     <fieldset>
 
                         <label>Nom*</label>
@@ -98,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <footer>
         <p>&copy 2024 Wild code school<br>made 💓Davdevep51 </p>
     </footer>
-
+    <script src="/assets/js/navbar.js"></script>
 </body>
 
 </html>

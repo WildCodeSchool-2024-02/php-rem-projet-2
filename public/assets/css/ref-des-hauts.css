@@ -218,7 +218,7 @@ img {
 }
 
 .div-ref-des-hauts {
-    width: 30%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -238,29 +238,34 @@ img {
 }
 
 @media only screen and (max-width: 720px) {
-
+  
+    .block-container {
+        display: flex;
+    }
+    
     .pref-des-hauts {
         width: 150%;
         margin: auto;
     }
 
-    .div-ref-robes {
-        width: 150%;
+    .div-ref-des-hauts {
+        width: 80%;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
     .grid {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 10rem;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-gap: 10px;
     }
 
-    .div-ref-des-hauts {
-        width: 170%;
-    }
+    
 
-
+   
 }
+
+  
+

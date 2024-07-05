@@ -51,13 +51,12 @@
                 <li><a href="videos-live"><img src="/assets/images/les-lives.png"></a>les-lives</li>
             </ul>
         </div>
-
-        <a href="#" id="openBtn">
+        
+        <a href="#" id="openBtn" class="button-nav">
             <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
+                <img src="/assets/images/logo-burger.png" alt="">
             </span>
+        </a>
         </a>
         <main>
             <img class="photonavbar" src="/assets/images/navbar.png" alt="photo navbar">
@@ -91,7 +90,7 @@
     <footer>
         <p>&copy 2024 Wild code school<br>made 💓Davdevep51</p>
     </footer>
-
+    <script src="/assets/js/navbar.js"></script>
 </body>
 
 </html>
