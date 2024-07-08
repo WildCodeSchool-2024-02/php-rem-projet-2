@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>chez cilvie</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
-    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/contact.css"/>
     <link rel="stylesheet" href="/assets/css/footer.css" />
     <link rel="stylesheet" href="/assets/css/navbar.css" />
 </head>
 
 <body class="body">
-    <h1> ma petite boutique en ligne </h1>
 <aside class="aside">
     <nav>
         <ul>
@@ -22,8 +21,8 @@
         </ul>
     </nav>
 </aside>
-
-    <div class="footercontainer">
+       
+<div class="footercontainer">
         <p>&copy 2024 Wild code school<br>made 💓by wilders image </p>
     </div>
 </body>
